@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <h1>Posts do Twitter</h1>
+    <article id="post">
+      <p><strong>Murilo Silva</strong> <span>@murilo123 - 3 min</span></p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro harum aut
+        sint nostrum est eaque impedit amet minus, quisquam, reiciendis officia
+        similique ipsam id blanditiis, natus facere corporis dolorem accusamus?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        numquam voluptate quod consequatur dolorum praesentium ex labore alias,
+        laboriosam reiciendis officiis incidunt ea maiores quibusdam, dicta quia
+        fugit ipsum adipisci?
+      </p>
+      <br />
+      <div class="comentarios">
+        <h3>Comentarios:</h3>
+        <input
+          type="text"
+          name="novo-comentario"
+          placeholder="Digite seu comentario"
+        />
+        <button onclick="adicionarComentario()">Comentar</button>
+      </div>
+      <div id="novos-comentarios"></div>
+    </article>
+
+    <script src="manipulando-dom.js"></script>
+  </body>
+</html>
