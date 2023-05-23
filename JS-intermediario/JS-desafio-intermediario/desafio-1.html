@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        background: url(imagens/flores-rosas.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+        font-size: 1.6rem;
+      }
+      .imagem-1,
+      .imagem-2,
+      .imagem-3,
+      .imagem-4 {
+        background-size: cover;
+        transition: 0.7s;
+      }
+
+      .imagem-1 {
+        background: url(imagens/flores-rosas.jpg);
+      }
+
+      .imagem-2 {
+        background: url(imagens/flores-verdes.jpg);
+      }
+
+      .imagem-3 {
+        background: url(imagens/montanhas.jpg);
+      }
+      .imagem-4 {
+        background: url(imagens/lago.jpg);
+      }
+      .container {
+        background-color: #f1f1f1;
+        border-radius: 1rem;
+        width: 36rem;
+        height: 45rem;
+        padding: 3rem;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+          'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 9.9rem;
+        left: 18rem;
+      }
+      .container a {
+        font-weight: 700;
+        color: #c50000;
+      }
+
+      .container-seta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+      }
+
+      .seta-back {
+        transform: rotate(180deg);
+        margin-left: 6rem;
+        opacity: 0.5;
+      }
+      .seta-back-1 {
+        opacity: 1;
+      }
+
+      .seta-next {
+        margin-right: 6rem;
+      }
+      .container-seta .seta-back,
+      .container-seta .seta-next {
+        width: 40px;
+      }
+
+      img:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <main>
+      <div class="container">
+        <h2 id="titulo">Titulo imagem 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque maxime
+          mollitia natus similique temporibus adipisci est repellat minus et
+          iure consectetur laboriosam voluptatem, provident omnis, doloribus
+          quibusdam distinctio odit porro quod officia exercitationem eos
+          inventore. Laboriosam, voluptatibus. Nam veritatis praesentium beatae
+          et vitae ea nesciunt aliquam sint. Similique magni voluptatibus
+          sapiente voluptates deserunt necessitatibus! Quo vero quia atque
+          reiciendis ex officiis doloremque, nesciunt impedit suscipit alias ab
+          natus repudiandae eveniet saepe perspiciatis nisi cupiditate. Quaerat
+          laboriosam commodi nulla. Vero, quisquam! Magnam reiciendis eaque
+          animi voluptas reprehenderit aliquam consequatur in dolorem soluta
+          culpa commodi doloremque saepe voluptatem facilis, vel error nobis.
+        </p>
+        <a href="#">Saiba mais</a>
+      </div>
+      <div class="container-seta">
+        <div id="back" class="seta-back">
+          <img src="imagens/seta.png" alt="seta para voltar" />
+        </div>
+        <div id="next" class="seta-next">
+          <img src="imagens/seta.png" alt="seta para avançar" />
+        </div>
+      </div>
+      <script src="desafio-1.js"></script>
+    </main>
+  </body>
+</html>
