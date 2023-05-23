@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando Estilos</title>
+    <style>
+      .fonte-grande {
+        font-size: 18px;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Manipulando estilos</h1>
+    <button onclick="alterarCorDeFundoPrimeiroPost()">
+      Alterar Cor De Fundo do Primeiro Post
+    </button>
+    <article class="post">
+      <p><strong>Murilo</strong> <span>@murilo123</span> - 10</p>
+      <p class="texto-post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cumque
+        quas distinctio odio vero quidem sequi, perspiciatis ipsum quos sapiente
+        enim itaque amet, cum saepe obcaecati aliquid praesentium totam
+        necessitatibus?
+      </p>
+    </article>
+    <button onclick="aumentarFonteSegundoPost()">Aumentar Fonte</button>
+    <article class="post">
+      <p><strong>Murilo</strong> <span>@murilo123</span> - 10</p>
+      <p class="texto-post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cumque
+        quas distinctio odio vero quidem sequi, perspiciatis ipsum quos sapiente
+        enim itaque amet, cum saepe obcaecati aliquid praesentium totam
+        necessitatibus?
+      </p>
+    </article>
+    <h1>Manipulando Atributos</h1>
+    <div>
+      Masculino<input type="radio" name="genero" id="masculino" />
+      Feminino<input type="radio" name="genero" id="feminino" />
+    </div>
+    <button onclick="marcarRadio('M')">Masculino</button>
+    <button onclick="marcarRadio('F')">Feminino</button>
+    <script src="manipulando-estilo-atributos.js"></script>
+  </body>
+</html>
