@@ -6,7 +6,7 @@ let setas = document.getElementsByClassName('seta');
 function abrirConteudo(evento) {
   contador++;
   if (evento == '1') {
-    resposta1.innerHTML = 'olaaaa';
+    resposta1.innerHTML = 'Você é meu pão com requeijão Te fiz essa canção';
     resposta2.innerHTML = ``;
     setas[1].classList.remove('seta-aberta');
     setas[0].classList.add('seta-aberta');
@@ -18,7 +18,8 @@ function abrirConteudo(evento) {
   }
 
   if (evento == '2') {
-    resposta2.innerHTML = `Ola Fan Farrão`;
+    resposta2.innerHTML = `Parece um ursinho de tão fofinho
+    Te dou meu coração`;
     resposta1.innerHTML = ``;
     setas[0].classList.remove('seta-aberta');
     setas[1].classList.add('seta-aberta');
