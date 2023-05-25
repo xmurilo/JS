@@ -35,8 +35,8 @@ body {
   width: 36rem;
   height: 45rem;
   padding: 3rem;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-    'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   position: absolute;
   top: 9.9rem;
   left: 18rem;
@@ -44,6 +44,7 @@ body {
 .container a {
   font-weight: 700;
   color: #c50000;
+  text-decoration: none;
 }
 
 .container-seta {
