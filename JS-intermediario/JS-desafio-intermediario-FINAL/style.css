@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main {
+  background-image: url(./bg-repeat.jpg);
+  background-size: contain;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text {
+  width: 300px;
+  height: 111px;
+  color: #ffff;
+  margin-right: 60px;
+}
+.container-text h2 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.container-text p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 11px;
+}
+
+.section-formulario {
+  background-color: #ffff;
+  padding: 20px;
+}
+.section-formulario form {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-formulario input,
+.section-formulario textarea {
+  width: 298px;
+  border-radius: 5px;
+}
+.section-formulario input {
+  height: 35px;
+  outline: none;
+  border: 1px solid;
+  /* margin-bottom: 15px; */
+  padding: 5px;
+}
+.section-formulario input.input-erro {
+  border: 2px solid red;
+}
+.section-formulario input.input-check {
+  border: 2px solid #3ccc87;
+}
+.section-formulario .campo-obrigatorio {
+  display: none;
+  font-size: 9px;
+  color: red;
+  transition: 0.2s ease-in-out;
+}
+
+.section-formulario textarea {
+  /* border: 1px; */
+  outline: none;
+  resize: none;
+  padding: 5px;
+  height: 100px;
+}
+
+.section-formulario button {
+  font-weight: bolder;
+  color: #ffff;
+  background-color: #3ccc87;
+  width: 298px;
+  height: 41px;
+  border-radius: 20px;
+  border: none;
+}

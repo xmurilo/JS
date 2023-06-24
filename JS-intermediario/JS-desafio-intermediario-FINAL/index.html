@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container-text">
+        <h2>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h2>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </section>
+      <section class="section-formulario">
+        <form id="formulario" action="#" method="post">
+          <div>
+            <input
+              id="nome"
+              class="input-form"
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Nome *"
+              autocomplete="off"
+              oninput="validateName()"
+            />
+            <span class="campo-obrigatorio">Campo Obrigatório</span>
+          </div>
+
+          <div>
+            <input
+              id="email"
+              class="input-form"
+              type="email"
+              name="email"
+              placeholder="Email *"
+              autocomplete="off"
+              oninput="validateEmail()"
+            />
+            <span class="campo-obrigatorio">Campo Obrigatório</span>
+          </div>
+
+          <div>
+            <input
+              id="tel"
+              class="input-form"
+              type="tel"
+              name="tel"
+              placeholder="Telefone *"
+              autocomplete="off"
+              maxlength="11"
+              oninput="validateTel()"
+            />
+            <p class="campo-obrigatorio">Campo Obrigatório</p>
+          </div>
+          <textarea
+            id="mensagem"
+            class="input-form"
+            name="mensagem"
+            placeholder="Mensagem *"
+            autocomplete="off"
+            oninput="validateText()"
+          ></textarea>
+          <span class="campo-obrigatorio">Campo Obrigatório</span>
+          <p>*Campos Obrigatórios</p>
+          <button class="botao-form">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <script src="validacao-form.js"></script>
+  </body>
+</html>
