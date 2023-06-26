@@ -25,7 +25,7 @@ console.log(idade);
 
 const numeros = [1, 2, 3];
 
-// As variaveis dentro do colchetes ira se basear nos indices do array que esta sendo desestruturado
+// As variaveis dentro dos colchetes irão se basear nos indices do array que esta sendo desestruturado
 let [um, dois, tres] = numeros;
 
 console.log(um);
