@@ -1,0 +1,31 @@
+<!-- XML com informacoes da serie, no caso The Boys 
+Parecido com tags HTML, se tivesse outra serie teria outro bloco de serie com outro ID-->
+<series>
+  <serie id="1">
+      <titulo>The Boys</titulo>
+      <sinopse>Em The Boys, quando a fama sobe à cabeça, alguns super-heróis passam a se corromper e usar seu status para se promoverem ainda mais, o que pode colocar em risco a própria população. Uma equipe independente de foras-da-lei, então, se prepara para cuidar do caso. Conhecidos como 'Os Meninos', Billy Butcher (Karl Urban) e seus companheiros têm a missão de vigiar o trabalho dessas personalidades, assim como controlar o surgimento de novos heróis. Butcher alimenta um ódio pelos super-humanos desde que o líder do maior time de hérois dos EUA, Capitão Pátria (Antony Starr) estuprou e matou sua esposa. Ele jurou combater todos os falsos hérois espalhados pelo país. Após um terrível acidente, o jovem Hughie (Jack Quaid) acaba se juntado aos 'Meninos' quando sua namorada é morta por A-Train (Jessie T. Usher), um super-herói com super-velocidade. Buscando justiça, eles descobrem grandes esquemas de corrupção envolvendo a empresa Vought, responsável pelo marketing e controle pessoal das equipes de herói pelo mundo.
+      </sinopse>
+      <genero>Drama, História de super-herói, Humor ácido, Ação</genero>
+      <elenco>
+        <ator>Antony Starr</ator>
+        <ator>Karl Urban</ator>
+        <ator>Jack Quaid</ator>
+        <ator>Erin Moriaty</ator>
+      </elenco>
+      <criador>Eric Kripke</criador>
+  </serie> 
+
+  <serie id="2">
+      <titulo>The Boys</titulo>
+      <sinopse>Em The Boys, quando a fama sobe à cabeça, alguns super-heróis passam a se corromper e usar seu status para se promoverem ainda mais, o que pode colocar em risco a própria população. Uma equipe independente de foras-da-lei, então, se prepara para cuidar do caso. Conhecidos como 'Os Meninos', Billy Butcher (Karl Urban) e seus companheiros têm a missão de vigiar o trabalho dessas personalidades, assim como controlar o surgimento de novos heróis. Butcher alimenta um ódio pelos super-humanos desde que o líder do maior time de hérois dos EUA, Capitão Pátria (Antony Starr) estuprou e matou sua esposa. Ele jurou combater todos os falsos hérois espalhados pelo país. Após um terrível acidente, o jovem Hughie (Jack Quaid) acaba se juntado aos 'Meninos' quando sua namorada é morta por A-Train (Jessie T. Usher), um super-herói com super-velocidade. Buscando justiça, eles descobrem grandes esquemas de corrupção envolvendo a empresa Vought, responsável pelo marketing e controle pessoal das equipes de herói pelo mundo.
+      </sinopse>
+      <genero>Drama, História de super-herói, Humor ácido, Ação</genero>
+      <elenco>
+        <ator>Antony Starr</ator>
+        <ator>Karl Urban</ator>
+        <ator>Jack Quaid</ator>
+        <ator>Erin Moriaty</ator>
+      </elenco>
+      <criador>Eric Kripke</criador>
+  </serie> 
+</series>
