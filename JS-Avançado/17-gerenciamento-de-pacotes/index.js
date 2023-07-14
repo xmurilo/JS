@@ -1,2 +1,3 @@
-// var kindOf = require('kind-of');
-// console.log(kindOf(true));
+const kindOf = require('kind-of');
+const testeString = 'Ola mundo';
+console.log(kindOf(testeString));
